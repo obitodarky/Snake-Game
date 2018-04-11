@@ -114,7 +114,7 @@ def game_intro():
 
 
         gameDisplay.fill(white)
-        message_to_screen("Welcome to Apple Pen",green,-100,'large')
+        message_to_screen("Welcome to the Snake Game",green,-100,'large')
         message_to_screen('The objective of the game is to eat red apples',black,-30)
         message_to_screen('The more appples you eat,the longer you get', black, 10)
         message_to_screen('If you run into yourself or the edges , you die and game is over ', black, 50)
