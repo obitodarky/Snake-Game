@@ -42,7 +42,7 @@ pygame.display.set_caption('PEN APPLE PEN') #game title : snake game
 
 clock=pygame.time.Clock() #the frames per second BIF in pygame
 
-FPS=30
+FPS=30 #Runs the game at 30 FPS, you can change it yourself but increasing it to much is not recommended
 
 direction='right'
 
