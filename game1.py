@@ -1,7 +1,11 @@
 import pygame
 import time
 import random
-import cx_Freeze
+#import cx_Freeze
+'''
+Do not import cx_Freeze if you are not interested in creating a .exe or a setup
+If you want to , you need to install the cx_Freeze package.
+'''
 
 pygame.init() #necessary to call the method
 
@@ -38,7 +42,7 @@ pygame.display.set_caption('PEN APPLE PEN') #game title : snake game
 
 clock=pygame.time.Clock() #the frames per second BIF in pygame
 
-FPS=15
+FPS=30
 
 direction='right'
 
